@@ -10,6 +10,7 @@ function component() {
 
   console.log('测试pr')
   console.log('测试pr2222')
+  console.log('测试pr2222')
   
   return element;
 }
