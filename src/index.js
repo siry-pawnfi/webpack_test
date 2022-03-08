@@ -13,6 +13,7 @@ function component() {
   console.log('测试pr2222')
   console.log('测试pr33333')
   
+  console.log('测试pr33333')
   
   return element;
 }
