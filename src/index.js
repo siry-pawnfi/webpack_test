@@ -25,6 +25,7 @@ function component() {
 
   console.log('测试提交签名2222222')
   console.log('测试提交签名2222222')
+  console.log('测试提交签名2222222')
 
 
   return element;
