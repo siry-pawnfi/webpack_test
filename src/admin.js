@@ -3,3 +3,6 @@ function getName() {
 }
 
 console.log(getName())
+
+
+console.log(getName())
