@@ -9,6 +9,8 @@ function component() {
   element.innerHTML = "hello webpack"
 
   console.log('测试pr')
+  console.log('测试pr2222')
+  
   return element;
 }
 
