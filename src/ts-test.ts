@@ -7,7 +7,7 @@ interface Person {
 
 let siry:Person = {
   name: 'siry',
-  age:22
+  age: 22
 }
 
 console.log(siry)

@@ -6,7 +6,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 module.exports = {
   entry: {
     app :"./src/index.js",
-    admin:  './src/admin.js'
+    admin:  './src/admin.js',
+    'ts-test':  './src/ts-test.ts',
+    'tr-sk':  './src/tree-sharking.js'
   },
   output: {//[name].[contenthash].bundle.js
     filename: '[name].bundle.js',
@@ -42,16 +44,23 @@ module.exports = {
         test: /\.css$/,  
         use: [
         MiniCssExtractPlugin.loader,
-        // { loader: 'style-loader' },
+        // { loader: 'style-loader' },//是将 css-loader打包后的css样式以style标签 直接插入html中
         { loader: 'css-loader' }
       ]
-    }
+    },
       
       //对ts文件使用css loader
-      // { test: /\.ts$/, use: 'ts-loader' },
+      { test: /\.ts$/, use: 'ts-loader' },  //解析ts文件为js文
     ]
   },
 
-
+  optimization:  {
+    usedExports: true,
+    sideEffects: true,//这里的意思是识别package.json中的sideEffects已删除没用到的代码
+  }
   // watch: true,
+
+  //卸载packagr.json中 的配置..制定具体的文件没有副作用,  webpack就可以放心的删除没有用到的代码了
+  // "sideEffects": ["./src/some-side-effectful-file.js", "*.css"],
+
 }
