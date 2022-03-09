@@ -5,3 +5,4 @@ function getName() {
 console.log(getName())
 
 console.log('lang问题')
+console.log('lang问题')
