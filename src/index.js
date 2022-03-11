@@ -9,30 +9,6 @@ function component() {
   element.innerHTML = "hello webpack"
 
   console.log('测试pr')
-  console.log('测试pr2222')
-  console.log('测试pr2222')
-  console.log('测试pr33333')
-  
-  console.log('测试pr33333')
-
-
-  console.log('测试提交签名2222222')
-  console.log('测试提交签名2222222')
-
-  console.log('测试提交签名2222222')
-
-  console.log('测试提交签名2222222')
-
-  console.log('测试提交签名2222222')
-  console.log('测试提交签名2222222')
-  console.log('测试提交签名2222222')
-  console.log('测试提交签名2222222')
-  console.log('测试提交签名2222222')
-  console.log('测试提交签名2222222')
-
-
-
-
 
   return element;
 }

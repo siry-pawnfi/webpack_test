@@ -5,8 +5,10 @@
   "private": true,
   "sideEffects": false,
   "devDependencies": {
+    "@antfu/eslint-config": "^0.18.8",
     "css-loader": "^6.5.1",
     "ejs-loader": "^0.5.0",
+    "eslint": "^8.10.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.5.3",
@@ -17,7 +19,8 @@
     "webpack-cli": "^4.9.2"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "eslint ."
   },
   "dependencies": {
     "lodash": "^4.17.21",
