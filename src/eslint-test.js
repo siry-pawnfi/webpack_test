@@ -16,4 +16,6 @@ console.log(arc)
 console.log(arc)
 console.log(arc) //github
 
+console.log(arc)
+//local
 
