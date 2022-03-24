@@ -8,6 +8,7 @@ function component() {
   // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   element.innerHTML = "hello webpack"
 
+  console.log('测试pr')
 
   return element;
 }

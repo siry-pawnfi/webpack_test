@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("三次方:",27)})();

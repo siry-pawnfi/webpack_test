@@ -1,4 +1,8 @@
 {
   "editor.fontSize": 16,
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint":true
+  }
 }

@@ -8,3 +8,6 @@ html{
   justify-content: center;
   align-items: center;
 }
+body{
+  color: red;
+}
