@@ -10,7 +10,3 @@ let siry:Person = {
   age: 22
 }
 
-console.log(siry)
-console.log(siry)
-console.log(siry)
-

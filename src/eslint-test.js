@@ -10,16 +10,5 @@ const fn = (args) => {
 
 fn()
 
-const arc = [1, 2, 3, 4, 5]
-
-console.log(arc)
-console.log(arc)
-console.log(arc) //github
-
-console.log(arc)
-
-console.log(arc)
-
-//local
 
 
